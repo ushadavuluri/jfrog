@@ -1,0 +1,8 @@
+1578460336178|create|artifactory-build-info/
+1578460336178|create|example-repo-local/
+1578525216531|delete|example-repo-local/
+1578525216531|create|libs-release-local/
+1578525216531|create|libs-snapshot-local/
+1578525216531|create|jcenter-cache/
+1578525216531|create|libs-release/
+1578525216531|create|libs-snapshot/

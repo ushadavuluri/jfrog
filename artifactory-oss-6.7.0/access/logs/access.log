@@ -1,0 +1,111 @@
+2020-01-07 22:47:34,545 [localhost-startStop-1] [INFO ] (o.j.a.c.JFrogApplicationContextInitializer:74) - Using JFrog Access home at '/root/jfrog/access'
+2020-01-07 22:47:34,558 [localhost-startStop-1] [INFO ] (o.j.a.AccessApplication:48) - Starting AccessApplication v4.1.41 on ip-172-31-36-80 with PID 8898 (/root/artifactory-oss-6.7.0/tomcat/webapps/access/WEB-INF/lib/access-application-4.1.41.jar started by root in /root/artifactory-oss-6.7.0/bin)
+2020-01-07 22:47:34,561 [localhost-startStop-1] [INFO ] (o.j.a.AccessApplication:597) - The following profiles are active: production,grpc
+2020-01-07 22:47:42,717 [localhost-startStop-1] [INFO ] (o.j.a.s.d.u.AccessJdbcHelperImpl:136) - Database: Apache Derby 10.14.2.0 - (1828579). Driver: Apache Derby Embedded JDBC Driver 10.14.2.0 - (1828579)
+2020-01-07 22:47:42,720 [localhost-startStop-1] [INFO ] (o.j.a.s.d.u.AccessJdbcHelperImpl:139) - Connection URL: jdbc:derby:/root/jfrog/data/derby
+2020-01-07 22:47:43,189 [localhost-startStop-1] [INFO ] (o.j.a.s.d.u.AccessJdbcHelperImpl:148) - ***Creating database schema***
+2020-01-07 22:47:44,245 [localhost-startStop-1] [INFO ] (o.j.a.s.d.u.AccessJdbcHelperImpl:164) - Setting new schema baseline to latest version: 3.12
+2020-01-07 22:47:45,325 [localhost-startStop-1] [INFO ] (o.j.c.s.InternalConfigurationServiceBase:151) - Configuration data wasn't found in db. Loading defaults
+2020-01-07 22:47:46,342 [localhost-startStop-1] [INFO ] (o.j.s.m.MasterKeyBootstrapper:56) - No master.key was supplied (system prop or file), attempting to generate new master.key
+2020-01-07 22:47:46,453 [localhost-startStop-1] [INFO ] (o.j.a.m.ConfigMigrationRunner:73) - Current version of access.properties is 1, latest version is 2. Applying migrations.
+2020-01-07 22:47:46,454 [localhost-startStop-1] [INFO ] (o.j.a.m.ConfigMigrationRunner:73) - Migrating access.properties to version 2
+2020-01-07 22:47:46,461 [localhost-startStop-1] [INFO ] (o.j.a.s.s.AccessStartupUtil:44) - [ACCESS BOOTSTRAP] Server name not found in access properties. Setting value to 05c64c83-664f-4eb6-9987-52009dfddad7
+2020-01-07 22:47:47,286 [localhost-startStop-1] [INFO ] (o.j.a.s.s.t.TokenServiceImpl:98) - Scheduling task for revoking expired tokens using cron expression: 0 0 0/1 * * ?
+2020-01-07 22:47:47,353 [localhost-startStop-1] [INFO ] (o.j.a.s.r.c.RpcServiceInvoker:78) - Added service: sync
+2020-01-07 22:47:48,780 [localhost-startStop-1] [INFO ] (o.j.a.s.AccessServerBootstrapImpl:103) - [ACCESS BOOTSTRAP] Starting JFrog Access bootstrap...
+2020-01-07 22:47:48,791 [localhost-startStop-1] [INFO ] (o.j.a.s.s.CertificateServiceImpl:392) - [ACCESS BOOTSTRAP] Generating private key and root certificate
+2020-01-08 05:11:37,780 [localhost-startStop-1] [INFO ] (o.j.a.c.JFrogApplicationContextInitializer:74) - Using JFrog Access home at '/root/jfrog/access'
+2020-01-08 05:11:37,806 [localhost-startStop-1] [INFO ] (o.j.a.AccessApplication:48) - Starting AccessApplication v4.1.41 on ip-172-31-36-80 with PID 2012 (/root/artifactory-oss-6.7.0/tomcat/webapps/access/WEB-INF/lib/access-application-4.1.41.jar started by root in /root/artifactory-oss-6.7.0/bin)
+2020-01-08 05:11:37,807 [localhost-startStop-1] [INFO ] (o.j.a.AccessApplication:597) - The following profiles are active: production,grpc
+2020-01-08 05:11:48,287 [localhost-startStop-1] [INFO ] (o.j.a.s.d.u.AccessJdbcHelperImpl:136) - Database: Apache Derby 10.14.2.0 - (1828579). Driver: Apache Derby Embedded JDBC Driver 10.14.2.0 - (1828579)
+2020-01-08 05:11:48,296 [localhost-startStop-1] [INFO ] (o.j.a.s.d.u.AccessJdbcHelperImpl:139) - Connection URL: jdbc:derby:/root/jfrog/data/derby
+2020-01-08 05:11:50,182 [localhost-startStop-1] [INFO ] (o.j.c.s.InternalConfigurationServiceBase:151) - Configuration data wasn't found in db. Loading defaults
+2020-01-08 05:11:51,932 [localhost-startStop-1] [INFO ] (o.j.s.m.MasterKeyBootstrapper:52) - Found master.key file at /root/jfrog/etc/security/master.key, using it as master.key
+2020-01-08 05:11:53,267 [localhost-startStop-1] [INFO ] (o.j.a.s.s.t.TokenServiceImpl:98) - Scheduling task for revoking expired tokens using cron expression: 0 0 0/1 * * ?
+2020-01-08 05:11:53,371 [localhost-startStop-1] [INFO ] (o.j.a.s.r.c.RpcServiceInvoker:78) - Added service: sync
+2020-01-08 05:11:55,182 [localhost-startStop-1] [INFO ] (o.j.a.s.AccessServerBootstrapImpl:103) - [ACCESS BOOTSTRAP] Starting JFrog Access bootstrap...
+2020-01-08 05:11:55,214 [localhost-startStop-1] [INFO ] (o.j.a.s.s.CertificateServiceImpl:392) - [ACCESS BOOTSTRAP] Generating private key and root certificate
+2020-01-08 05:11:56,344 [localhost-startStop-1] [INFO ] (o.j.a.s.m.CertificateMigrationImpl:71) - [Certificate Migration] Recreating root certificate to match current certificate version
+2020-01-08 05:11:56,352 [localhost-startStop-1] [INFO ] (o.j.a.s.m.CertificateMigrationImpl:93) - [Certificate Migration] Creating root certificate for version: null
+2020-01-08 05:11:57,156 [localhost-startStop-1] [INFO ] (o.j.a.s.m.CertificateMigrationImpl:82) - [Certificate Migration] Saved new root certificate in: /root/jfrog/access/etc/keys/root.crt
+2020-01-08 05:11:59,208 [localhost-startStop-1] [INFO ] (o.j.a.s.AccessServerBootstrapImpl:156) - [ACCESS BOOTSTRAP] Updating server '05c64c83-664f-4eb6-9987-52009dfddad7' private key finger print to: 5c4c9f9d7a11dac44f8b24e724b7785953e5d5424616478030ee63ff64483499
+2020-01-08 05:11:59,405 [localhost-startStop-1] [INFO ] (o.j.a.s.AccessServerBootstrapImpl:331) - [ACCESS BOOTSTRAP] No admin user exists - generating an admin user, credentials will be saved to: /root/jfrog/access/etc/generated.creds
+2020-01-08 05:11:59,856 [localhost-startStop-1] [INFO ] (o.j.a.s.AccessServerBootstrapImpl:373) - [ACCESS BOOTSTRAP] Writing updated credentials to the bundling Artifactory: /root/jfrog/etc/security/access/bootstrap.creds
+2020-01-08 05:11:59,872 [localhost-startStop-1] [INFO ] (o.j.a.s.AccessServerBootstrapImpl:302) - [ACCESS BOOTSTRAP] Creating default access admin permission 'jfac@01dy1s1qs8r2jz1644s9721hfa-admin'
+2020-01-08 05:11:59,985 [localhost-startStop-1] [INFO ] (o.j.a.s.AccessServerBootstrapImpl:324) - [ACCESS BOOTSTRAP] Assigning user 'access-admin' to admin permission 'jfac@01dy1s1qs8r2jz1644s9721hfa-admin'.
+2020-01-08 05:12:00,189 [localhost-startStop-1] [INFO ] (o.j.a.s.AccessServerBootstrapImpl:118) - [ACCESS BOOTSTRAP] JFrog Access bootstrap finished.
+2020-01-08 05:12:03,636 [localhost-startStop-1] [INFO ] (o.j.a.c.RefreshableScheduledJob:52) - Scheduling heartbeat task to run every 5 seconds
+2020-01-08 05:12:09,969 [localhost-startStop-1] [INFO ] (o.j.a.AccessApplication:57) - Started AccessApplication in 35.181 seconds (JVM running for 39.013)
+2020-01-08 05:12:14,259 [http-nio-8040-exec-7] [INFO ] (o.j.a.s.s.b.AccessImporterExporterImpl:63) - Exporting users...
+2020-01-08 05:12:14,342 [http-nio-8040-exec-7] [INFO ] (o.j.a.s.s.b.AccessImporterExporterImpl:63) - Exporting servers...
+2020-01-08 05:12:14,353 [http-nio-8040-exec-7] [INFO ] (o.j.a.s.s.b.AccessImporterExporterImpl:63) - Exporting tokens...
+2020-01-08 05:12:14,368 [http-nio-8040-exec-7] [INFO ] (o.j.a.s.s.b.AccessImporterExporterImpl:63) - Exporting federation_events...
+2020-01-08 05:12:14,393 [http-nio-8040-exec-7] [INFO ] (o.j.a.s.s.b.AccessImporterExporterImpl:63) - Exporting federation_servers...
+2020-01-08 05:12:14,427 [http-nio-8040-exec-7] [INFO ] (o.j.a.s.s.b.AccessImporterExporterImpl:63) - Exporting permissions...
+2020-01-08 05:12:14,456 [http-nio-8040-exec-7] [INFO ] (o.j.a.s.s.b.AccessImporterExporterImpl:63) - Exporting groups...
+2020-01-08 05:12:14,486 [http-nio-8040-exec-7] [INFO ] (o.j.a.s.s.b.AccessImporterExporterImpl:63) - Exporting config...
+2020-01-08 05:12:14,514 [http-nio-8040-exec-7] [INFO ] (o.j.a.s.s.b.AccessImporterExporterImpl:63) - Exporting encryption...
+2020-01-08 05:12:14,515 [http-nio-8040-exec-7] [INFO ] (o.j.a.s.s.b.AccessImporterExporterImpl:63) - Exporting home...
+2020-01-08 05:12:15,436 [http-nio-8040-exec-2] [ERROR] (o.j.a.s.a.s.p.SecurityPermissionEventLogProvider:95) - Could not audit custom data for add customData
+2020-01-08 05:12:15,497 [http-nio-8040-exec-2] [ERROR] (o.j.a.s.a.s.p.SecurityPermissionEventLogProvider:95) - Could not audit custom data for add customData
+2020-01-08 05:12:15,560 [http-nio-8040-exec-3] [ERROR] (o.j.a.s.a.s.p.SecurityPermissionEventLogProvider:95) - Could not audit custom data for add customData
+2020-01-08 06:58:03,683 [jf-access-task1] [INFO ] (o.j.a.s.s.c.s.HeartbeatJob:79) - Refreshing server state after it was considered as staled by peers [last previous successful update 1578466579695]
+2020-01-08 21:39:21,335 [localhost-startStop-1] [INFO ] (o.j.a.c.JFrogApplicationContextInitializer:74) - Using JFrog Access home at '/root/jfrog/access'
+2020-01-08 21:39:21,346 [localhost-startStop-1] [INFO ] (o.j.a.AccessApplication:48) - Starting AccessApplication v4.1.41 on ip-172-31-36-80 with PID 14776 (/root/artifactory-oss-6.7.0/tomcat/webapps/access/WEB-INF/lib/access-application-4.1.41.jar started by root in /root/artifactory-oss-6.7.0/bin)
+2020-01-08 21:39:21,360 [localhost-startStop-1] [INFO ] (o.j.a.AccessApplication:597) - The following profiles are active: production,grpc
+2020-01-08 21:39:33,327 [localhost-startStop-1] [INFO ] (o.j.a.s.d.u.AccessJdbcHelperImpl:136) - Database: Apache Derby 10.14.2.0 - (1828579). Driver: Apache Derby Embedded JDBC Driver 10.14.2.0 - (1828579)
+2020-01-08 21:39:33,328 [localhost-startStop-1] [INFO ] (o.j.a.s.d.u.AccessJdbcHelperImpl:139) - Connection URL: jdbc:derby:/root/jfrog/data/derby
+2020-01-08 21:39:35,757 [localhost-startStop-1] [INFO ] (o.j.c.s.InternalConfigurationServiceBase:154) - Loading configuration from db finished successfully
+2020-01-08 21:39:37,508 [localhost-startStop-1] [INFO ] (o.j.s.m.MasterKeyBootstrapper:52) - Found master.key file at /root/jfrog/etc/security/master.key, using it as master.key
+2020-01-08 21:39:38,486 [localhost-startStop-1] [INFO ] (o.j.a.s.s.t.TokenServiceImpl:98) - Scheduling task for revoking expired tokens using cron expression: 0 0 0/1 * * ?
+2020-01-08 21:39:38,581 [localhost-startStop-1] [INFO ] (o.j.a.s.r.c.RpcServiceInvoker:78) - Added service: sync
+2020-01-08 21:39:40,362 [localhost-startStop-1] [INFO ] (o.j.a.s.AccessServerBootstrapImpl:103) - [ACCESS BOOTSTRAP] Starting JFrog Access bootstrap...
+2020-01-08 21:39:42,173 [localhost-startStop-1] [INFO ] (o.j.a.s.AccessServerBootstrapImpl:156) - [ACCESS BOOTSTRAP] Updating server '05c64c83-664f-4eb6-9987-52009dfddad7' private key finger print to: 5c4c9f9d7a11dac44f8b24e724b7785953e5d5424616478030ee63ff64483499
+2020-01-08 21:39:42,577 [localhost-startStop-1] [INFO ] (o.j.a.s.AccessServerBootstrapImpl:118) - [ACCESS BOOTSTRAP] JFrog Access bootstrap finished.
+2020-01-08 21:39:46,294 [localhost-startStop-1] [INFO ] (o.j.a.c.RefreshableScheduledJob:52) - Scheduling heartbeat task to run every 5 seconds
+2020-01-08 21:39:53,496 [localhost-startStop-1] [INFO ] (o.j.a.AccessApplication:57) - Started AccessApplication in 35.266 seconds (JVM running for 39.148)
+2020-01-08 21:47:20,339 [jf-access-task1] [INFO ] (o.j.a.s.s.c.s.HeartbeatJob:79) - Refreshing server state after it was considered as staled by peers [last previous successful update 1578520004620]
+2020-01-08 21:48:26,990 [jf-access-task1] [INFO ] (o.j.c.s.InternalConfigurationServiceBase:154) - Loading configuration from db finished successfully
+2020-01-08 21:53:39,816 [jf-access-task1] [INFO ] (o.j.a.s.s.c.s.HeartbeatJob:79) - Refreshing server state after it was considered as staled by peers [last previous successful update 1578520253606]
+2020-01-08 23:11:46,588 [localhost-startStop-1] [INFO ] (o.j.a.c.JFrogApplicationContextInitializer:74) - Using JFrog Access home at '/root/jfrog/access'
+2020-01-08 23:11:46,594 [localhost-startStop-1] [INFO ] (o.j.a.AccessApplication:48) - Starting AccessApplication v4.1.41 on ip-172-31-36-80 with PID 1705 (/root/artifactory-oss-6.7.0/tomcat/webapps/access/WEB-INF/lib/access-application-4.1.41.jar started by root in /root/artifactory-oss-6.7.0/bin)
+2020-01-08 23:11:46,608 [localhost-startStop-1] [INFO ] (o.j.a.AccessApplication:597) - The following profiles are active: production,grpc
+2020-01-08 23:11:58,024 [localhost-startStop-1] [INFO ] (o.j.a.s.d.u.AccessJdbcHelperImpl:136) - Database: Apache Derby 10.14.2.0 - (1828579). Driver: Apache Derby Embedded JDBC Driver 10.14.2.0 - (1828579)
+2020-01-08 23:11:58,025 [localhost-startStop-1] [INFO ] (o.j.a.s.d.u.AccessJdbcHelperImpl:139) - Connection URL: jdbc:derby:/root/jfrog/data/derby
+2020-01-08 23:12:00,449 [localhost-startStop-1] [INFO ] (o.j.c.s.InternalConfigurationServiceBase:154) - Loading configuration from db finished successfully
+2020-01-08 23:12:02,104 [localhost-startStop-1] [INFO ] (o.j.s.m.MasterKeyBootstrapper:52) - Found master.key file at /root/jfrog/etc/security/master.key, using it as master.key
+2020-01-08 23:12:03,014 [localhost-startStop-1] [INFO ] (o.j.a.s.s.t.TokenServiceImpl:98) - Scheduling task for revoking expired tokens using cron expression: 0 0 0/1 * * ?
+2020-01-08 23:12:03,102 [localhost-startStop-1] [INFO ] (o.j.a.s.r.c.RpcServiceInvoker:78) - Added service: sync
+2020-01-08 23:12:04,722 [localhost-startStop-1] [INFO ] (o.j.a.s.AccessServerBootstrapImpl:103) - [ACCESS BOOTSTRAP] Starting JFrog Access bootstrap...
+2020-01-08 23:12:06,827 [localhost-startStop-1] [INFO ] (o.j.a.s.AccessServerBootstrapImpl:156) - [ACCESS BOOTSTRAP] Updating server '05c64c83-664f-4eb6-9987-52009dfddad7' private key finger print to: 5c4c9f9d7a11dac44f8b24e724b7785953e5d5424616478030ee63ff64483499
+2020-01-08 23:12:07,239 [localhost-startStop-1] [INFO ] (o.j.a.s.AccessServerBootstrapImpl:118) - [ACCESS BOOTSTRAP] JFrog Access bootstrap finished.
+2020-01-08 23:12:10,971 [localhost-startStop-1] [INFO ] (o.j.a.c.RefreshableScheduledJob:52) - Scheduling heartbeat task to run every 5 seconds
+2020-01-08 23:12:17,422 [localhost-startStop-1] [INFO ] (o.j.a.AccessApplication:57) - Started AccessApplication in 34.007 seconds (JVM running for 37.816)
+2020-01-08 23:43:22,564 [jf-access-task1] [INFO ] (o.j.a.s.s.c.s.HeartbeatJob:79) - Refreshing server state after it was considered as staled by peers [last previous successful update 1578526917290]
+2020-01-08 23:57:33,383 [jf-access-task1] [INFO ] (o.j.c.s.InternalConfigurationServiceBase:154) - Loading configuration from db finished successfully
+2020-01-09 00:01:55,352 [localhost-startStop-1] [INFO ] (o.j.a.c.JFrogApplicationContextInitializer:74) - Using JFrog Access home at '/root/jfrog/access'
+2020-01-09 00:01:55,377 [localhost-startStop-1] [INFO ] (o.j.a.AccessApplication:48) - Starting AccessApplication v4.1.41 on ip-172-31-36-80 with PID 1524 (/root/artifactory-oss-6.7.0/tomcat/webapps/access/WEB-INF/lib/access-application-4.1.41.jar started by root in /root/artifactory-oss-6.7.0/bin)
+2020-01-09 00:01:55,382 [localhost-startStop-1] [INFO ] (o.j.a.AccessApplication:597) - The following profiles are active: production,grpc
+2020-01-09 00:02:06,868 [localhost-startStop-1] [INFO ] (o.j.a.s.d.u.AccessJdbcHelperImpl:136) - Database: Apache Derby 10.14.2.0 - (1828579). Driver: Apache Derby Embedded JDBC Driver 10.14.2.0 - (1828579)
+2020-01-09 00:02:06,878 [localhost-startStop-1] [INFO ] (o.j.a.s.d.u.AccessJdbcHelperImpl:139) - Connection URL: jdbc:derby:/root/jfrog/data/derby
+2020-01-09 00:02:09,162 [localhost-startStop-1] [INFO ] (o.j.c.s.InternalConfigurationServiceBase:154) - Loading configuration from db finished successfully
+2020-01-09 00:02:10,911 [localhost-startStop-1] [INFO ] (o.j.s.m.MasterKeyBootstrapper:52) - Found master.key file at /root/jfrog/etc/security/master.key, using it as master.key
+2020-01-09 00:02:11,766 [localhost-startStop-1] [INFO ] (o.j.a.s.s.t.TokenServiceImpl:98) - Scheduling task for revoking expired tokens using cron expression: 0 0 0/1 * * ?
+2020-01-09 00:02:11,846 [localhost-startStop-1] [INFO ] (o.j.a.s.r.c.RpcServiceInvoker:78) - Added service: sync
+2020-01-09 00:02:13,455 [localhost-startStop-1] [INFO ] (o.j.a.s.AccessServerBootstrapImpl:103) - [ACCESS BOOTSTRAP] Starting JFrog Access bootstrap...
+2020-01-09 00:02:15,404 [localhost-startStop-1] [INFO ] (o.j.a.s.AccessServerBootstrapImpl:156) - [ACCESS BOOTSTRAP] Updating server '05c64c83-664f-4eb6-9987-52009dfddad7' private key finger print to: 5c4c9f9d7a11dac44f8b24e724b7785953e5d5424616478030ee63ff64483499
+2020-01-09 00:02:15,833 [localhost-startStop-1] [INFO ] (o.j.a.s.AccessServerBootstrapImpl:118) - [ACCESS BOOTSTRAP] JFrog Access bootstrap finished.
+2020-01-09 00:02:19,293 [localhost-startStop-1] [INFO ] (o.j.a.c.RefreshableScheduledJob:52) - Scheduling heartbeat task to run every 5 seconds
+2020-01-09 00:02:25,662 [localhost-startStop-1] [INFO ] (o.j.a.AccessApplication:57) - Started AccessApplication in 33.508 seconds (JVM running for 37.322)
+2020-01-09 00:10:25,327 [jf-access-task1] [INFO ] (o.j.a.s.s.c.s.HeartbeatJob:79) - Refreshing server state after it was considered as staled by peers [last previous successful update 1578528586502]
+2020-01-09 00:16:50,566 [jf-access-task1] [INFO ] (o.j.c.s.InternalConfigurationServiceBase:154) - Loading configuration from db finished successfully
+2020-01-09 02:00:00,951 [http-nio-8040-exec-4] [INFO ] (o.j.a.s.s.b.AccessImporterExporterImpl:63) - Exporting users...
+2020-01-09 02:00:00,999 [http-nio-8040-exec-4] [INFO ] (o.j.a.s.s.b.AccessImporterExporterImpl:63) - Exporting servers...
+2020-01-09 02:00:01,010 [http-nio-8040-exec-4] [INFO ] (o.j.a.s.s.b.AccessImporterExporterImpl:63) - Exporting tokens...
+2020-01-09 02:00:01,020 [http-nio-8040-exec-4] [INFO ] (o.j.a.s.s.b.AccessImporterExporterImpl:63) - Exporting federation_events...
+2020-01-09 02:00:01,048 [http-nio-8040-exec-4] [INFO ] (o.j.a.s.s.b.AccessImporterExporterImpl:63) - Exporting federation_servers...
+2020-01-09 02:00:01,072 [http-nio-8040-exec-4] [INFO ] (o.j.a.s.s.b.AccessImporterExporterImpl:63) - Exporting permissions...
+2020-01-09 02:00:01,130 [http-nio-8040-exec-4] [INFO ] (o.j.a.s.s.b.AccessImporterExporterImpl:63) - Exporting groups...
+2020-01-09 02:00:01,139 [http-nio-8040-exec-4] [INFO ] (o.j.a.s.s.b.AccessImporterExporterImpl:63) - Exporting config...
+2020-01-09 02:00:01,171 [http-nio-8040-exec-4] [INFO ] (o.j.a.s.s.b.AccessImporterExporterImpl:63) - Exporting encryption...
+2020-01-09 02:00:01,173 [http-nio-8040-exec-4] [INFO ] (o.j.a.s.s.b.AccessImporterExporterImpl:63) - Exporting home...

@@ -1,0 +1,13 @@
+08-Jan-2020 05:11:33.791 INFO [localhost-startStop-2] org.apache.catalina.core.ApplicationContext.log Using artifactory.home at '/root/jfrog' resolved from: System property
+08-Jan-2020 05:11:34.337 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log 1 Spring WebApplicationInitializers detected on classpath
+08-Jan-2020 05:11:46.560 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Initializing Spring embedded WebApplicationContext
+08-Jan-2020 05:12:04.090 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log jolokia: No access restrictor found, access to any MBean is allowed
+08-Jan-2020 21:39:17.279 INFO [localhost-startStop-2] org.apache.catalina.core.ApplicationContext.log Using artifactory.home at '/root/jfrog' resolved from: System property
+08-Jan-2020 21:39:17.763 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log 1 Spring WebApplicationInitializers detected on classpath
+08-Jan-2020 21:39:30.772 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Initializing Spring embedded WebApplicationContext
+08-Jan-2020 21:39:46.813 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log jolokia: No access restrictor found, access to any MBean is allowed
+08-Jan-2020 23:11:42.461 INFO [localhost-startStop-2] org.apache.catalina.core.ApplicationContext.log Using artifactory.home at '/root/jfrog' resolved from: System property
+08-Jan-2020 23:11:42.993 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log 1 Spring WebApplicationInitializers detected on classpath
+08-Jan-2020 23:11:55.271 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Initializing Spring embedded WebApplicationContext
+08-Jan-2020 23:12:11.562 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log jolokia: No access restrictor found, access to any MBean is allowed
+08-Jan-2020 23:58:46.493 INFO [localhost-startStop-4] org.apache.catalina.core.ApplicationContext.log Closing Spring root WebApplicationContext

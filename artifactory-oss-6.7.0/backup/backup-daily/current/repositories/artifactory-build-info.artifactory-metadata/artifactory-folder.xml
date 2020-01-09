@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<artifactory-folder>
+  <repoPath>
+    <repoKey>artifactory-build-info</repoKey>
+    <path></path>
+    <folder>true</folder>
+  </repoPath>
+  <name></name>
+  <created>1578460336094</created>
+  <lastModified>1578460336094</lastModified>
+  <additionalInfo>
+    <lastUpdated>1578460336094</lastUpdated>
+  </additionalInfo>
+</artifactory-folder>

@@ -1,0 +1,17 @@
+09-Jan-2020 00:01:49.548 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8081"]
+09-Jan-2020 00:01:49.594 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+09-Jan-2020 00:01:49.616 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8040"]
+09-Jan-2020 00:01:49.617 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+09-Jan-2020 00:01:49.626 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8019"]
+09-Jan-2020 00:01:49.628 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+09-Jan-2020 00:01:49.645 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+09-Jan-2020 00:01:49.645 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.32
+09-Jan-2020 00:01:49.695 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying configuration descriptor [/root/artifactory-oss-6.7.0/tomcat/conf/Catalina/localhost/access.xml]
+09-Jan-2020 00:01:49.697 INFO [localhost-startStop-2] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying configuration descriptor [/root/artifactory-oss-6.7.0/tomcat/conf/Catalina/localhost/artifactory.xml]
+09-Jan-2020 00:01:57.165 INFO [localhost-startStop-2] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of configuration descriptor [/root/artifactory-oss-6.7.0/tomcat/conf/Catalina/localhost/artifactory.xml] has finished in [7,468] ms
+09-Jan-2020 00:02:25.704 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of configuration descriptor [/root/artifactory-oss-6.7.0/tomcat/conf/Catalina/localhost/access.xml] has finished in [36,008] ms
+09-Jan-2020 00:02:25.705 INFO [localhost-startStop-3] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/root/artifactory-oss-6.7.0/tomcat/webapps/ROOT]
+09-Jan-2020 00:02:25.755 INFO [localhost-startStop-3] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/root/artifactory-oss-6.7.0/tomcat/webapps/ROOT] has finished in [50] ms
+09-Jan-2020 00:02:25.765 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8081"]
+09-Jan-2020 00:02:25.799 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8040"]
+09-Jan-2020 00:02:25.826 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8019"]
